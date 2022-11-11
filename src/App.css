@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fragment Mono', monospace;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    padding: 1em;
+}
+
+.left, .right{
+    cursor: pointer;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    color: aqua;
+    font-size:x-large;
+}
+
+.creator{
+    color:aqua;
+    align-self: flex-start;
+}
+
+.names{
+    align-self: flex-end;
+}
+
+.file-selector{
+    margin: 5px;
+    width:400px;
+    border:3px dashed aqua;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+.file-selector > div{
+    padding: 0.5em;
+}
+
+.footer{
+    text-align: center;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: aqua;
+    width: 100vw;
+}
+
+img{
+    border-radius: 500px;
+    border: 4px solid black;
+}
+
+.choose {
+    display: none;
+}
+
+.custom-upload{
+    margin: 1em;
+    padding: 0.5em;
+    font-size: large;
+    border-radius:10px;
+    background-color: aqua;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+}
+
+.note{
+    padding: 0.5em;
+    margin: 1em;
+}
+
+.upload{
+    padding: 0.5em;
+    font-size: large;
+    border-radius:10px;
+    background-color: aqua;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+}
+
+.upload:hover, .custom-upload:hover{
+    background-color: rgb(62, 241, 241);
+}
+
+.results{
+    padding: 1em;
+    min-height: 200px;
+}
+.image{
+    background-color: aqua;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.head{
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.answer{
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+}
